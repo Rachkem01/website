@@ -3,8 +3,8 @@ services:
   name: next-js
   runtime: node
   plan: starter
-  buildCommand: yarn; yarn build
-  startCommand: yarn start
+  buildCommand: npm install; npm run build
+  startCommand: npm start
   autoDeploy: false
   envVars:
   - key: NODE_ENV
@@ -14,7 +14,7 @@ Uncomment the following to deploy this app as a static site on render
   name: nextjs-static
   runtime: static
   buildCommand: npm install; npm run build
-  staticPublishPath: .next
+  staticPublishPath: dist
   pullRequestPreviewsEnabled: true     # optional
   envVars:
   - key: NODE_ENV
