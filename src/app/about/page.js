@@ -13,7 +13,7 @@ const About = () => {
   return (
     <section>
     <div className={[`${inter.className}`, " w-[1392px] h-[105px] ml-[48px] flex gap-[492px] pb-[32px] pt-[32px]"]} >
-<Image src={Icon} alt="icon" className="w-[212px] h-[41px]"/>
+{/* <Image src='@/public/Layer 29.png' alt="icon" className="w-[212px] h-[41px]"/> */}
 <ul className="flex gap-[46px] w-[641px] h-[40px] font-[Inter] font-[400]">
   <Link href= '/home' className="w-[46px] h-[32px]  font-[600]" >Home</Link>
   <Link href='' className="w-[71px] h-[32px] text-[#043AFB]">About Us</Link>
@@ -27,7 +27,7 @@ const About = () => {
 
     <div className={[`${inter.className}`,' absolute w-[1181px] h-[140px] top-[204px] left-[130px] text-[64px] leading-[70px] align-center']}>We are bridging the gap between<br/>
     tech and religion as you know it</div>
-    <Image src={frame} alt='frame' className=' absolute w-[1344px] h-[386px] top-[376px] left-[47px]'/>
+    {/* <Image src='@/public/Frame 27.png' alt='frame' className=' absolute w-[1344px] h-[386px] top-[376px] left-[47px]'/> */}
 
     
     <div className={[`${inter.className}`, ' absolute w-[660px] h-[175px] top-[916px] left-[63px]']}>
@@ -52,7 +52,7 @@ Laoreet dui volutpat odio consectetur. Turpis non eu vel praesent velit dignissi
 </section>
 
 <section className='absolute flex top-[1558px] left[48px] w-[1345px] h-[645px]'>
-<Image src={mic} alt='mic' className=' relative left-[28px] w-[536px] h-[390px]'/>
+{/* <Image src='@/public/megaphone illustration 1.png' alt='mic' className=' relative left-[28px] w-[536px] h-[390px]'/> */}
 <div className=' absolute left-[728px] w-[577px] h-[510px] gap-[18px]'>
 <div className={[`${inter.className}`, " text-500 text-[36px] leading-[43.57px]"]}>
 We are charting a new<br/> 
@@ -73,7 +73,7 @@ know it
 </div>
 </section>
 <footer className=' absolute w-[1440px] h-[164px] top-[2331px] bg-[#020887]'>
-<Image src={Icon} alt='icon' className=' relative top-[40px] w-[195px] h-[50px] text-[#fff] left-[622px]'/>
+{/* <Image src={Icon} alt='icon' className=' relative top-[40px] w-[195px] h-[50px] text-[#fff] left-[622px]'/> */}
 <p className='relative  w-[235px] h-[32px] top-[74px] left-[602px] text-[#fff]'>Copyright Proskuneo Inc. 2023</p>
 </footer>
   

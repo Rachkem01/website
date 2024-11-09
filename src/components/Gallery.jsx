@@ -27,9 +27,9 @@ import image19 from '@/public/Rectangle 22.png'
 const Gallery = () => {
   return (
     <div className=' absolute grid grid-cols-5 gap-[8px] w-[552px] h-[440px] left-[701px] top-[169px]  '>
-    <Image className=" w-[104px] h-[104px]" src={imageI} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image1} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image2} alt = 'img'/>
+    <Image className=" w-[104px] h-[104px]" src='@/public/Rectangle 1.png' alt = 'img'/>
+    <Image className=" w-[104px] h-[104px]" src='@/public/Rectangle 4.png' alt = 'img'/>
+    {/* <Image className=" w-[104px] h-[104px]" src={image2} alt = 'img'/>
     <Image className=" w-[104px] h-[104px]" src={image3} alt = 'img'/>
     <Image className=" w-[104px] h-[104px]" src={image4} alt = 'img'/>
     <Image className=" w-[104px] h-[104px]" src={image5} alt = 'img'/>
@@ -47,7 +47,7 @@ const Gallery = () => {
     <Image className=" w-[104px] h-[104px]" src={image17} alt = 'img'/>
     <Image className=" w-[104px] h-[104px]" src={image18} alt = 'img'/>
     <Image className=" w-[104px] h-[104px]" src={image19} alt = 'img'/>
-  
+   */}
     </div>
   )
 }
