@@ -16,7 +16,7 @@ const Home = () => {
    
     <div>
        <Nav/>
-      {/* <Gallery/> */}
+       <Gallery/> 
     <section className=' absolute top-[169px] w-[811px] h-[499px]  left-[48px] flex ' >
     <div>
     

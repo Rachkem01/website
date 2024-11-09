@@ -8,6 +8,7 @@ import { Inter } from "next/font/google"
 import Nav from '@/components/Nav'
 const inter = Inter({subsets:['latin'], weight:'400'})
 import Image from 'next/image'
+import Logo from  '@/public/Titheware Logo Full.png'
 
 import Icon from '@/public/Titheware Logo Full.png'
 
@@ -16,7 +17,7 @@ const Home1 = () => {
   return (
     <div >
      <Nav/>
-      {/* <Gallery/> */}
+       <Gallery/> 
     <section className=' absolute top-[169px] w-[811px] h-[210px]  left-[48px] flex ' >
     <div>
     
@@ -80,7 +81,7 @@ border-r-2 border-l-2'></span></p>
 </div>
 </section>
 <section className='absolute flex top-[2285px] left[48px] w-[1345px] h-[645px]'>
-<Image src='@/public/megaphone illustration 1.png' alt='mic' className=' relative left-[28px] w-[536px] h-[390px]'/>
+<Image src={mic} alt='mic' className=' relative left-[28px] w-[536px] h-[390px]'/>
 <div className=' absolute left-[728px] w-[577px] h-[510px] gap-[18px]'>
 <div className={[`${inter.className}`, " text-500 text-[36px] leading-[43.57px]"]}>
 We are charting a new<br/> 
@@ -101,7 +102,7 @@ know it
 </div>
 </section>
 <footer className=' absolute w-[1440px] h-[164px] top-[3037px] bg-[#020887]'>
-<Image src='' alt='icon' className=' relative top-[40px] w-[195px] h-[50px] text-[#fff] left-[622px]'/>
+<Image src={Logo} alt='icon' className=' relative top-[40px] w-[195px] h-[50px] text-[#fff] left-[622px]'/>
 <p className='relative  w-[235px] h-[32px] top-[74px] left-[602px] text-[#fff]'>Copyright Proskuneo Inc. 2023</p>
 </footer>
     </div>

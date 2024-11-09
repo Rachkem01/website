@@ -27,27 +27,27 @@ import image19 from '@/public/Rectangle 22.png'
 const Gallery = () => {
   return (
     <div className=' absolute grid grid-cols-5 gap-[8px] w-[552px] h-[440px] left-[701px] top-[169px]  '>
-    <Image className=" w-[104px] h-[104px]" src='@/public/Rectangle 1.png' alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src='@/public/Rectangle 4.png' alt = 'img'/>
-    {/* <Image className=" w-[104px] h-[104px]" src={image2} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image3} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image4} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image5} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image6} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image7} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image8} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image9} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image10} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image11} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image12} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image13} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image14} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image15} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image16} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image17} alt = 'img'/>
-    <Image className=" w-[104px] h-[104px]" src={image18} alt = 'img'/>
+    <Image className=" w-[104px] h-[104px]" src={imageI} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image1}alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image2} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image3} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image4} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image5} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image6} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image7} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image8} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image9} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image10} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image11} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image12} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image13} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image14} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image15} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image16} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image17} alt = 'Image'/>
+    <Image className=" w-[104px] h-[104px]" src={image18} alt = 'Image'/>
     <Image className=" w-[104px] h-[104px]" src={image19} alt = 'img'/>
-   */}
+  
     </div>
   )
 }
