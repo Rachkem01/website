@@ -12,8 +12,9 @@ import twitter from '@/public/prime_twitter.png'
 import facebook from '@/public/line-md_facebook.png'
 import vector1 from '@/public/Vector (1).png'
 import group from '@/public/Group.png'
+import ProskuenoFrame from '@/public/Frame 1216400482.png'
 
-const font1= Kumbh_Sans({subsets:['latin'], weight:'700'})
+const font1= Kumbh_Sans({subsets:['latin'], weight:'900'})
 const font2 = Kumbh_Sans({subsets:['latin'], weight:'400'})
 const font3 = Kumbh_Sans({subsets:['latin'], weight:'600'})
 const font4 = Inter({subsets:['latin'], weight:'400'})
@@ -26,10 +27,12 @@ const year = date.getFullYear()
     <div className='bg-[#262626]'>
     
 <Image src={Icon} alt='icon' className='w-[52px] h-[52px] absolute top-[16px] left-[64px] cursor-pointer'/>
-<section className='w-[1440px] h-[733px] mt-[100px] -rotate-0'>
+<section className='w-[1440px] h-[733px] mt-[100px] -rotate-0 flex'>
 <div className='w-[952px] h-[733px] flex flex-col gap-[24px] ml-[64px]'>
-<div className='w-[952px] h-[356px]'>
-<p className={[`${font1.className}`,' text-[#f2f2f2] text-[72px] leading-[89.3px]' ]}> Crafting world class solutions for <span className='text-[#2f80ed]'>visionary</span> institutions by redefining <span className= 'text-[#2f80ed]'>excellence</span>on a global scale.</p>
+<div className='w-[952px] h-[356px] '>
+
+<p className={[`${font1.className}`,' w-[952px] h-[356px] text-[#f2f2f2] text-[72px] leading-[89.3px]' ]}> Crafting world class <br/>solutions for <span className='text-[#2f80ed]'>visionary<br/></span> institutions by redefining <br/><span className= 'text-[#2f80ed]'>excellence </span>on a global scale.</p>
+
 </div>
 
 <div className={[`${font2.className}`,'w-[650px] h-[103px] gap-[32px] text-[20px] leading-[34px] text-[#f2f2f2]']}>
@@ -46,11 +49,14 @@ Lorem ipsum dolor sit amet consectetur. Malesuada nisl augue<br/> posuere aliqua
 </div>
 
 </div>
+<div>
+  <Image src={ProskuenoFrame} alt='Proskueno' className=' w-[910px] h-[700px] absolute left-[450px]  rotate-54.84'/>
+</div>
     </section>
 <section className='w-[1440px] h-[540px] absolute top-[833px]'>
 <aside className='w-[1328px] h-[331px]  relative top-[96px] left-[64px] flex '>
 <div className='w-[766px] h-[331px] flex flex-col gap-[32px]'>
-<button className='w-[115px] h-[39px] rounded-[24px] pt-[10px] pr-[16px] pb-[10px] pl-[16px] gap-[10px] bg-[#333] text-[#fff] text-[16px] cursor-pointer'><p className={`${font4.className}`}>ABOUT US</p></button>
+<button className={['w-[115px] h-[39px] rounded-[24px] pt-[10px] pr-[16px] pb-[10px] pl-[16px] gap-[10px] bg-[#333] text-[#fff] text-[16px] leading-[19.63px] text-center cursor-pointer', `${font4.className}`]}>ABOUT US </button>
 <div className='w-[766px] h-[180px]'>
 <p className={[`${font1.className}`,' text-[#f2f2f2] text-[48px] leading-[59.53px]' ]}>Making financial records <span className='text-[#2f80ed]'>simple,</span> accessible and clear for <span className='text-[#2f80ed]'>everyone</span> everywhere</p>
 </div>
@@ -68,13 +74,17 @@ Lorem ipsum dolor sit amet consectetur. Malesuada <br/> nisl augue posuere aliqu
 </aside>
 </section>
 
-<section className='w-[1272px] h-[510px] absolute top-[1465px] left-[54px] rounded-[32px] bg-[#E0E0E0] flex'>
-<div className='w-[707px] h-[414px] relative top-[48px] left-[64px] flex flex-col gap-[48px]'>
+<section className='w-[1272px] h-[510px] absolute top-[1465px] left-[54px] rounded-[32px] bg-[#E0E0E0] flex '>
+<div className='w-[707px] h-[414px] relative top-[48px] left-[64px] flex flex-col gap-[24px]'>
+  <div>
     <p className={[`${font3.className}`, ' w-[528px] h-[120px] leading-[59.53px] text-[48px]  text-[#2F80ED] shadow-[0 1 0 0] cursor-pointer']}>Be the first to know <br/>
     when there’s an update</p>
+    </div>
+    <div>
     <p className={[`${font2.className}`,'w-[707px] h-[160px]  text-[20px] leading-[32px] text-[#4F4F4F]']}>Figma ipsum component variant main layer. Prototype object mask fill pixel<br/> prototype rectangle. Pencil pencil <br/> image scale plugin draft edit library pencil flows. Hand move line library boolean duplicate ipsum effect. Edit pixel<br/> rectangle plugin italic font. Rotate bullet select scale arrow main flows.<br/> Plugin team horizontal content move follower content. Comment variant.</p>
-    <div className='w-[657px] h-[62px] flex gap-[16px]'>
-<input placeholder='Enter your email address' className={[`${font5.className}`,'w-[510px] h-[62px] rounded-[8px] border-[1px]  text-[20px]  border-[#828282] outline-none bg-[#828282] pt-[16px] pr-[245px] pb-[16px] pl-[16px] leading-[30px] gap-[10px]']}/>
+    </div>
+    <div className='w-[657px] h-[62px] flex gap-[16px] mt-[48px] '>
+<input placeholder='Enter your email address' className={[`${font5.className}`,'w-[510px] h-[62px] rounded-[8px] border-[1px]  text-[20px]  border-[#828282] outline-none  pt-[16px] pr-[245px] pb-[21px] pl-[16px] bg-transparent leading-[30px] gap-[10px] placeholder:text-[15px] ']}/>
 <button className='w-[131px] h-[62px] rounded-[8px] p-[16px] gap-[10px] bg-[#2F80ED]'><p className={[`${font5.className}`, ' w-[99px] h-[30px] text-[20px] leading-[30px] text-[#e0e0e0]']}>Subscribe</p></button>
 </div>
 </div>
